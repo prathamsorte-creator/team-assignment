@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+}
+
+.happy { background: #fff3b0; }
+.stressed { background: #ffd6d6; }
+.angry { background: #ffb3b3; }
+.sleepy { background: #d6e0ff; }

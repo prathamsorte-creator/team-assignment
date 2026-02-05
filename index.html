@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Reality Check</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Mood-Based Reality Check</h1>
+
+  <form id="moodForm">
+
+    <label>
+      Your Name:
+      <input type="text" id="username" required />
+    </label>
+
+    <label>
+      Your Mood:
+      <select id="moodSelect" required>
+        <option value="">--Choose--</option>
+        <option value="happy">Happy 😄</option>
+        <option value="stressed">Stressed 😵</option>
+        <option value="angry">Angry 😡</option>
+        <option value="sleepy">Sleepy 😴</option>
+      </select>
+    </label>
+
+    <!-- Dynamic content goes here -->
+    <div id="dynamicSection"></div>
+
+    <button type="submit">Get Reality Check</button>
+
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
