@@ -1,3 +1,4 @@
+
 # 💪 FitConnect — Fitness Social Media Platform
 
 > A full-stack MERN application that unifies workout tracking, progress visualization, and social fitness networking in one powerful platform.
@@ -225,3 +226,5 @@ fitconnect/
 
 ## 📄 License
 MIT License — Built for educational purposes.
+
+
